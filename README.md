@@ -1,2 +1,2 @@
 # Front--End
-The repository consists of Front-end Projects using Web Technologies.
+The Repository consists of Front-end Projects using Web Technologies.
