@@ -46,12 +46,28 @@ hr{
     justify-content: flex-end;
     display: flex;  
     align-items: flex-end;
+    font-size: xx-large;
 }
 
 
  .keypad{
-    margin-left: 70px;
-    width: 108px;
+    width: 260px;
+    height: 250px;
+ }
+
+ #keypadDisplay{
+    width: 240px;
+    height: 250px;
+    margin: auto;
+ }
+ .button{
+    height:50px;
+    width: 50px;
+    font-size: larger;
+ }
+
+  .button:hover{
+background-color: lightblue;
  }
 
 /* body{

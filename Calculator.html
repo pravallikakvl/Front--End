@@ -14,37 +14,41 @@
          <!-- <hr> -->
         </ul>
       </div>
-      <div class="display" id="display">0</div><br><br>
+      <div class="display" id="display">0</div>
       <div class="keypad">
-        <table>
+        <table id="keypadDisplay">
           <tr>
-            <td><button type="button">7</button></td>
-            <td><button type="button">8</button></td>
-          <td><button type="button">9</button></td>
-          <td><button type="button">+</button></td>
+          <td><button type="button" class="button">7</button></td>
+          <td><button type="button" class="button">8</button></td>
+          <td><button type="button" class="button">9</button></td>
+          <td><button type="button" class="button">+</button></td>
           </tr>
           <tr>
-            <td><button type="button">4</button></td>
-           <td><button type="button">5</button></td>
-           <td><button type="button">6</button></td>
-           <td><button type="button">-</button></td>
+            <td><button type="button" class="button" onclick="updateDisplay()">4</button></td>
+           <td><button type="button" class="button">5</button></td>
+           <td><button type="button" class="button">6</button></td>
+           <td><button type="button" class="button">-</button></td>
           </tr>
           <tr>
-             <td><button type="button">1</button></td>
-           <td><button type="button">2</button></td>
-           <td><button type="button">3</button></td>
-           <td><button type="button">*</button></td>
+             <td><button type="button" class="button">1</button></td>
+           <td><button type="button" class="button">2</button></td>
+           <td><button type="button" class="button">3</button></td>
+           <td><button type="button" class="button">*</button></td>
           </tr>
           <tr>
-               <td><button type="button">.</button></td>
-           <td><button type="button">0</button></td>
-           <td><button type="button">/</button></td>
-           <td><button type="button">=</button></td>
+            <td><button type="button" class="button">.</button></td>
+           <td><button type="button" class="button">0</button></td>
+           <td><button type="button" class="button">/</button></td>
+           <td><button type="button" class="button">=</button></td>
+          </tr>
+          <tr>
+            <td><button type="button" class="button" onclick="clearDisplay()">Clear</button></td>           
           </tr>
         </table>
         <br>
       </div>
     </div>
   </div>
+  <script src="./script.js"></script>
 </body>
 </html>
