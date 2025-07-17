@@ -51,18 +51,19 @@ hr{
 
 
  .keypad{
-    width: 260px;
-    height: 250px;
+    width: 50px;
+    height: 50px;
+    margin-inline: 30px;
  }
 
  #keypadDisplay{
-    width: 240px;
-    height: 250px;
+    width: 35px;
+    height: 35px;
     margin: auto;
  }
  .button{
-    height:50px;
-    width: 50px;
+    height:45px;
+    width: 45px;
     font-size: larger;
  }
 
